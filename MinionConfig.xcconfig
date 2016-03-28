@@ -1,0 +1,13 @@
+//
+//  MinionConfig.xcconfig
+//  Minion
+//
+
+// Activating this setting causes '.gcno' files to be produced that the gcov code-coverage utility can use to show program coverage.
+GCC_GENERATE_TEST_COVERAGE_FILES = YES
+
+// Activating this setting indicates that code should be added so program flow arcs are instrumented.
+GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES
+
+// Lets us know if we have coverage enabled so we can turn the __gcov_flush() lines on/off as appropriate and avoid build errors
+GTM_CONFIGURATION_GCC_PREPROCESSOR_DEFINITIONS = COVERAGE_ENABLED=1

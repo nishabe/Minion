@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F27F471C9389DD002EE64E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F461C9389DD002EE64E /* main.m */; };
+		26F27F4A1C9389DD002EE64E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F491C9389DD002EE64E /* AppDelegate.m */; };
+		26F27F4D1C9389DD002EE64E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F4C1C9389DD002EE64E /* ViewController.m */; };
+		26F27F501C9389DD002EE64E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F27F4E1C9389DD002EE64E /* Main.storyboard */; };
+		26F27F521C9389DD002EE64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F27F511C9389DD002EE64E /* Assets.xcassets */; };
+		26F27F551C9389DD002EE64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F27F531C9389DD002EE64E /* LaunchScreen.storyboard */; };
+		26F27F601C9389DD002EE64E /* MinionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F5F1C9389DD002EE64E /* MinionTests.m */; };
+		26F27F721C93972F002EE64E /* CheckWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F711C93972F002EE64E /* CheckWeatherViewController.m */; };
+		26F27F731C93972F002EE64E /* CheckWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F711C93972F002EE64E /* CheckWeatherViewController.m */; };
+		26F27F881C977CFE002EE64E /* CheckWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F711C93972F002EE64E /* CheckWeatherViewController.m */; };
+		26F27F891C977CFE002EE64E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F4C1C9389DD002EE64E /* ViewController.m */; };
+		26F27F8A1C977CFE002EE64E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F491C9389DD002EE64E /* AppDelegate.m */; };
+		26F27F8B1C977CFE002EE64E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F27F461C9389DD002EE64E /* main.m */; };
+		26F27F8E1C977CFE002EE64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F27F531C9389DD002EE64E /* LaunchScreen.storyboard */; };
+		26F27F8F1C977CFE002EE64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F27F511C9389DD002EE64E /* Assets.xcassets */; };
+		26F27F901C977CFE002EE64E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F27F4E1C9389DD002EE64E /* Main.storyboard */; };
+		26F27F971C977E2B002EE64E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F27F961C977E2B002EE64E /* CFNetwork.framework */; };
+		26F27F9A1C9780A7002EE64E /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F27F991C9780A7002EE64E /* calabash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26F27F5C1C9389DD002EE64E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F27F3A1C9389DD002EE64E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F27F411C9389DD002EE64E;
+			remoteInfo = Minion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2634505F1C9CA0EE00AC9FE5 /* MinionConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MinionConfig.xcconfig; sourceTree = SOURCE_ROOT; };
+		26F27F421C9389DD002EE64E /* Minion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F27F461C9389DD002EE64E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26F27F481C9389DD002EE64E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26F27F491C9389DD002EE64E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26F27F4B1C9389DD002EE64E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26F27F4C1C9389DD002EE64E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26F27F4F1C9389DD002EE64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26F27F511C9389DD002EE64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26F27F541C9389DD002EE64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26F27F561C9389DD002EE64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F27F5B1C9389DD002EE64E /* MinionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F27F5F1C9389DD002EE64E /* MinionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinionTests.m; sourceTree = "<group>"; };
+		26F27F611C9389DD002EE64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F27F701C93972F002EE64E /* CheckWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckWeatherViewController.h; sourceTree = "<group>"; };
+		26F27F711C93972F002EE64E /* CheckWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckWeatherViewController.m; sourceTree = "<group>"; };
+		26F27F941C977CFE002EE64E /* Minion-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minion-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F27F961C977E2B002EE64E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		26F27F991C9780A7002EE64E /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F27F3F1C9389DD002EE64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F27F581C9389DD002EE64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F27F8C1C977CFE002EE64E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F27F971C977E2B002EE64E /* CFNetwork.framework in Frameworks */,
+				26F27F9A1C9780A7002EE64E /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263450601C9CA0FF00AC9FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F27F961C977E2B002EE64E /* CFNetwork.framework */,
+				26F27F991C9780A7002EE64E /* calabash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26F27F391C9389DD002EE64E = {
+			isa = PBXGroup;
+			children = (
+				26F27F441C9389DD002EE64E /* Minion */,
+				263450601C9CA0FF00AC9FE5 /* Frameworks */,
+				26F27F5E1C9389DD002EE64E /* MinionTests */,
+				26F27F431C9389DD002EE64E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26F27F431C9389DD002EE64E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F27F421C9389DD002EE64E /* Minion.app */,
+				26F27F5B1C9389DD002EE64E /* MinionTests.xctest */,
+				26F27F941C977CFE002EE64E /* Minion-cal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F27F441C9389DD002EE64E /* Minion */ = {
+			isa = PBXGroup;
+			children = (
+				26F27F481C9389DD002EE64E /* AppDelegate.h */,
+				26F27F491C9389DD002EE64E /* AppDelegate.m */,
+				26F27F4B1C9389DD002EE64E /* ViewController.h */,
+				26F27F4C1C9389DD002EE64E /* ViewController.m */,
+				26F27F4E1C9389DD002EE64E /* Main.storyboard */,
+				26F27F701C93972F002EE64E /* CheckWeatherViewController.h */,
+				26F27F711C93972F002EE64E /* CheckWeatherViewController.m */,
+				26F27F511C9389DD002EE64E /* Assets.xcassets */,
+				26F27F531C9389DD002EE64E /* LaunchScreen.storyboard */,
+				26F27F561C9389DD002EE64E /* Info.plist */,
+				2634505F1C9CA0EE00AC9FE5 /* MinionConfig.xcconfig */,
+				26F27F451C9389DD002EE64E /* Supporting Files */,
+			);
+			path = Minion;
+			sourceTree = "<group>";
+		};
+		26F27F451C9389DD002EE64E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26F27F461C9389DD002EE64E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26F27F5E1C9389DD002EE64E /* MinionTests */ = {
+			isa = PBXGroup;
+			children = (
+				26F27F5F1C9389DD002EE64E /* MinionTests.m */,
+				26F27F611C9389DD002EE64E /* Info.plist */,
+			);
+			path = MinionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F27F411C9389DD002EE64E /* Minion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F27F641C9389DD002EE64E /* Build configuration list for PBXNativeTarget "Minion" */;
+			buildPhases = (
+				26F27F3E1C9389DD002EE64E /* Sources */,
+				26F27F3F1C9389DD002EE64E /* Frameworks */,
+				26F27F401C9389DD002EE64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minion;
+			productName = Minion;
+			productReference = 26F27F421C9389DD002EE64E /* Minion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26F27F5A1C9389DD002EE64E /* MinionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F27F671C9389DD002EE64E /* Build configuration list for PBXNativeTarget "MinionTests" */;
+			buildPhases = (
+				26F27F571C9389DD002EE64E /* Sources */,
+				26F27F581C9389DD002EE64E /* Frameworks */,
+				26F27F591C9389DD002EE64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F27F5D1C9389DD002EE64E /* PBXTargetDependency */,
+			);
+			name = MinionTests;
+			productName = MinionTests;
+			productReference = 26F27F5B1C9389DD002EE64E /* MinionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26F27F861C977CFE002EE64E /* Minion-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F27F911C977CFE002EE64E /* Build configuration list for PBXNativeTarget "Minion-cal" */;
+			buildPhases = (
+				26F27F871C977CFE002EE64E /* Sources */,
+				26F27F8C1C977CFE002EE64E /* Frameworks */,
+				26F27F8D1C977CFE002EE64E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minion-cal";
+			productName = Minion;
+			productReference = 26F27F941C977CFE002EE64E /* Minion-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F27F3A1C9389DD002EE64E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Nordstrom;
+				TargetAttributes = {
+					26F27F411C9389DD002EE64E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					26F27F5A1C9389DD002EE64E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 26F27F411C9389DD002EE64E;
+					};
+				};
+			};
+			buildConfigurationList = 26F27F3D1C9389DD002EE64E /* Build configuration list for PBXProject "Minion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26F27F391C9389DD002EE64E;
+			productRefGroup = 26F27F431C9389DD002EE64E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F27F411C9389DD002EE64E /* Minion */,
+				26F27F5A1C9389DD002EE64E /* MinionTests */,
+				26F27F861C977CFE002EE64E /* Minion-cal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F27F401C9389DD002EE64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F27F551C9389DD002EE64E /* LaunchScreen.storyboard in Resources */,
+				26F27F521C9389DD002EE64E /* Assets.xcassets in Resources */,
+				26F27F501C9389DD002EE64E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F27F591C9389DD002EE64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F27F8D1C977CFE002EE64E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F27F8E1C977CFE002EE64E /* LaunchScreen.storyboard in Resources */,
+				26F27F8F1C977CFE002EE64E /* Assets.xcassets in Resources */,
+				26F27F901C977CFE002EE64E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F27F3E1C9389DD002EE64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F27F721C93972F002EE64E /* CheckWeatherViewController.m in Sources */,
+				26F27F4D1C9389DD002EE64E /* ViewController.m in Sources */,
+				26F27F4A1C9389DD002EE64E /* AppDelegate.m in Sources */,
+				26F27F471C9389DD002EE64E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F27F571C9389DD002EE64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F27F731C93972F002EE64E /* CheckWeatherViewController.m in Sources */,
+				26F27F601C9389DD002EE64E /* MinionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F27F871C977CFE002EE64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F27F881C977CFE002EE64E /* CheckWeatherViewController.m in Sources */,
+				26F27F891C977CFE002EE64E /* ViewController.m in Sources */,
+				26F27F8A1C977CFE002EE64E /* AppDelegate.m in Sources */,
+				26F27F8B1C977CFE002EE64E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26F27F5D1C9389DD002EE64E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F27F411C9389DD002EE64E /* Minion */;
+			targetProxy = 26F27F5C1C9389DD002EE64E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26F27F4E1C9389DD002EE64E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F27F4F1C9389DD002EE64E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26F27F531C9389DD002EE64E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F27F541C9389DD002EE64E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26F27F621C9389DD002EE64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2634505F1C9CA0EE00AC9FE5 /* MinionConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_CODE_COVERAGE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26F27F631C9389DD002EE64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2634505F1C9CA0EE00AC9FE5 /* MinionConfig.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_CODE_COVERAGE = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F27F651C9389DD002EE64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Minion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nordstrom.Minion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26F27F661C9389DD002EE64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Minion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nordstrom.Minion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26F27F681C9389DD002EE64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MinionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nordstrom.MinionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minion.app/Minion";
+			};
+			name = Debug;
+		};
+		26F27F691C9389DD002EE64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MinionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nordstrom.MinionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minion.app/Minion";
+			};
+			name = Release;
+		};
+		26F27F921C977CFE002EE64E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = Minion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nordstrom.Minion-cal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26F27F931C977CFE002EE64E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = Minion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"\"$(SOURCE_ROOT)/calabash.framework/calabash\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nordstrom.Minion-cal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F27F3D1C9389DD002EE64E /* Build configuration list for PBXProject "Minion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F27F621C9389DD002EE64E /* Debug */,
+				26F27F631C9389DD002EE64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F27F641C9389DD002EE64E /* Build configuration list for PBXNativeTarget "Minion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F27F651C9389DD002EE64E /* Debug */,
+				26F27F661C9389DD002EE64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F27F671C9389DD002EE64E /* Build configuration list for PBXNativeTarget "MinionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F27F681C9389DD002EE64E /* Debug */,
+				26F27F691C9389DD002EE64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F27F911C977CFE002EE64E /* Build configuration list for PBXNativeTarget "Minion-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F27F921C977CFE002EE64E /* Debug */,
+				26F27F931C977CFE002EE64E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26F27F3A1C9389DD002EE64E /* Project object */;
+}
